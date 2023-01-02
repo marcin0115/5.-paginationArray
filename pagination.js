@@ -16,4 +16,6 @@ const paginateArray = (
   const entriesOnSelectedPage = dataEntries.slice(start, end);
   return entriesOnSelectedPage;
 };
+
 const result = paginateArray(data, settings);
+// console.log(result);
